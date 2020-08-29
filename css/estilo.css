@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(../Imagens/fundo.png) repeat-x;
+}
+
+div#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	font-size: 15px;
+}
+
+h3 {
+	background: #294c71;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 4px;
+	width: 95%;
+	font-size: 16px;
+	padding: 4px 0px;
+	text-indent: 10px;
+}
+
+h4 {
+	color: blue;
+	font-size: 1.2em;
+}
+
+/* ***** TOPO ***** */
+
+div.topo {
+	height: 222px; border:
+}
+
+div.logo {
+	float: left;
+	padding: 20px 10px 10px 10px;
+}
+
+div.detalhe {
+	float: right;
+}
+
+.nav-horizontal, .nav-horizontal2 {
+	clear: both;
+	padding: 15px;
+	background: #b10333;
+	width: 600px;
+	position: relative;
+	bottom: 60px;
+}
+
+div.nav-horizontal li,  div.nav-horizontal2 li{
+	display: inline;
+}
+
+.nav-horizontal ul a, .nav-horizontal2 ul a {
+	color: #fff;
+	text-decoration: none;
+	padding-left: 14px;
+	padding-right: 14px;
+	background: url(../Imagens/divisor.png) no-repeat left center;
+}
+
+div.nav-horizontal a:link, a:visited{
+	padding: 10px 15px;
+}
+
+div.nav-horizontal2 a:link, a:visited{
+	padding: 10px 15px;
+}
+
+div.nav-horizontal a:hover, div.nav-horizontal2 a:hover {
+	color: #e50040;
+}
+
+div.nav-horizontal .atual a, div.nav-horizontal2 .atual a{
+	background: #de003e; 
+	color: #fff;
+	cursor: text;
+}
+
+.nav-horizontal .primeiro a, .nav-horizontal2 .primeiro a {
+	background: none;
+}
+
+.nav-mobile {
+	display: none;
+	
+}
+
+.botao {
+	padding: 10px 15px;
+	background: #069;
+	color: #fff;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	position: absolute;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	top: 160px;
+	left: 20px;
+
+}
+
+/* ***** NAVEGAÇÃO ***** */
+
+div.navegacao {
+	width: 170px;
+	height: 370px;
+	background: url(../Imagens/fundo-caixa.png);
+	float: left;
+	margin: 20px 10px;
+}
+
+div.navegacao ul  {
+	width: 95%;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+div.navegacao li {
+	padding: 0px 0px;
+}
+
+div.navegacao a {
+	background: white;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding-bottom: 10px;
+	font-size: 14px;
+	padding: 12px;
+	border-bottom: 1px solid #f1f1f1; 
+}
+
+div.navegacao ul {
+	text-decoration: none;
+}
+
+div.navegacao a:hover {
+	background: #fff url(../Imagens/marcador.png) no-repeat left center;
+	color: #808080;
+	text-indent: 10px;
+}
+
+/* **** NEWS **** */
+
+div.news {
+	width: 170px;
+	height: 135px;
+	float: left;
+	background: url(../Imagens/fundo-caixa.png);
+	position: relative;
+	right: 180px;
+	top: 400px;
+}
+.formulario1 {
+	background: #fff;
+	width: 83%;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.texto {
+	width: 130px;
+	height: 25px;
+}
+
+.cadastrar {
+	border: 1px solid red;
+	background: #b10333;
+	color: #fff;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* ***** CONTEÚDO ***** */
+
+span {
+	background: #b10333;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.elementos1 {
+	float: left;
+	background: url(../Imagens/fundo-caixa.png);
+	width: 270px;
+	height: 285px;
+	margin: 0px; margin-bottom: 20px; 
+}
+
+.elementos2 {
+	float: left;
+	background: url(../Imagens/fundo-caixa.png);
+	width: 270px;
+	height: 285px;
+	margin: 0px;
+	margin-top:28px;
+}
+
+.branco {
+	background: #fff;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.elementos1 a, .geral a, .geral1 a{
+	color: #b10333;
+	text-decoration: none;
+}
+
+.elementos1 a:hover, .geral a:hover, .geral1 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.link a{
+	font-size: 0.8em;
+	color: #000;
+	display: block;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.parab{
+	float: right;
+	position: relative;
+	right: 8px;
+	top: 5px;
+}
+
+.parab1 {
+	float: right;
+	position: relative;
+	right: 140px;
+	top: 10px;
+}
+
+.link a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.link:hover {
+	background: #c1c1c1;
+	text-decoration: none;
+}
+
+.img img {
+	border: 2px solid #a1a1a1;
+}
+
+/* **** COLUNAS **** */
+
+.coluna1 {
+	width: 270px;
+	height: 350px;
+	float: left;
+	position: relative;
+	right: 170px;
+	top: 20px;
+}
+
+.coluna2 {
+	width: 270px;
+	height: 350px;
+	float: right;
+	position: relative;
+	bottom: 330px;
+}
+
+.geral, .geral1, .geral2 {
+	float: right;
+	width: 70%; height: 480px;
+	background: url(../Imagens/fundo-caixa.png);
+	position: relative;
+	top: -115px;
+	right: 30px;
+	margin-bottom: 10px;
+
+}
+
+.geral1 {
+	height: 460px;
+}
+
+.geral2 {
+	height: 310px;
+}
+
+/* ***** RODAPÉ ***** */
+
+#rodape {
+	clear:both;
+	background: #294c71;;
+	text-align: center;
+	height: 60px;
+	color: #fff;
+	line-height: 30px;
+}
